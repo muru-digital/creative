@@ -1,0 +1,149 @@
+{
+    "main": {
+        "name": "Joko",
+        "role": "UI Designer",
+        "photo": "hoodie.png",
+        "desc": "I am a UI designer with a strong focus in animation.",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "github-otln.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "dribbble-icons.svg"
+            }
+        ]
+    },
+    "mySkill": {
+        "skill": [
+            {
+                "skillName": "Figma",
+                "skillLogo": "figma.svg"
+            },
+            {
+                "skillName": "Sketch",
+                "skillLogo": "sketch.svg"
+            },
+            {
+                "skillName": "Miro",
+                "skillLogo": "miro.svg"
+            },
+            {
+                "skillName": "After Effect.js",
+                "skillLogo": "aftereffects.svg"
+            }
+        ]
+    },
+    "about": {
+        "prg1": "I started my career as a UI/UX designer, then realized I enjoyed building what I designed even more, which led me to transition into frontend development.",
+        "prg2": "My experience in UI/UX helps me bridge the gap between design and engineering through usability thinking, coding, and product perspective.",
+        "skill": [
+            {
+                "skillName": "Figma",
+                "skillLogo": "figma.svg"
+            },
+            {
+                "skillName": "Sketch",
+                "skillLogo": "sketch.svg"
+            },
+            {
+                "skillName": "Miro",
+                "skillLogo": "miro.svg"
+            },
+            {
+                "skillName": "After Effect.js",
+                "skillLogo": "aftereffects.svg"
+            }
+        ]
+    },
+    "myExperience": {
+        "experience": [
+            {
+                "id": 1,
+                "position": "UI Designer",
+                "company": "Freelance",
+                "date": "Nov 2025 - Present",
+                "do2": "Develope 5+ web including, responsive landing page, responsive job portal website, 3 table web pages, and dashboard page yang cepat dan tanpilan yang clean menggunakan html, css, and bootstrap frameork."
+            },
+            {
+                "id": 2,
+                "position": "UI Designer",
+                "company": "Woo-Hoo",
+                "date": "Aug 2021 - Jul 2022",
+                "do1": " Collaborate with the team to create 20+ design system components including style guide and component library by considering auto layout, naming components, and variants that successfully created design become consistent, structured and team work more efficiently.",
+                "do2": " Composed an interactive Figma prototype and Figma mirror prototype by connecting 100+ frames and creating 15+ animations that engage users with the app design"
+            },
+            {
+                "id": 3,
+                "position": "UI/UX Designer",
+                "company": "LOKAL",
+                "date": "May - Aug 2021",
+                "do1": " Redesigned and improved the user experience of mobile apps and landing pages by adjusting design components, creating user flows, user journey maps, low fidelity designs, and collaborating with the digital marketing team which successfully increased website visits by 11% and app downloads by 100+",
+                "do2": " Collaborate with the developer team to discuss the possibility of implementing the design into code."
+            },
+            {
+                "id": 4,
+                "position": "Graphic Designer",
+                "company": "Glory",
+                "date": "Oct 2020 - Feb 2021",
+                "do2": "Develope 5+ web including, responsive landing page, responsive job portal website, 3 table web pages, and dashboard page yang cepat dan tanpilan yang clean menggunakan html, css, and bootstrap frameork."
+            }
+        ]
+    },
+    "port": {
+        "project": [
+            {
+                "title": "Woo Hoo - UI Animation",
+                "image": "ui-animation.jpg",
+                "detail": "Financial health diagnosis",
+                "type": "UI Designer",
+                "type2": "UI Animation",
+                "link": "https://mushawwirrd.github.io/fina/"
+            },
+            {
+                "title": "Attandance App",
+                "image": "absn.jpg",
+                "detail": "Financial health diagnosis",
+                "type": "UI/UX Designer",
+                "link": "https://mushawwirrd.github.io/fina/"
+            },
+            {
+                "title": "Job Portal",
+                "image": "portal.jpg",
+                "detail": "Look at the doctor's schedule",
+                "type": "Web Designer",
+                "link": "https://mushawwirrd.github.io/SJY-hospital-demo/"
+            },
+            {
+                "title": "Woo Hoo - Design System",
+                "image": "dsg.jpg",
+                "detail": "Look at the doctor's schedule",
+                "type": "UI Designer",
+                "link": "https://mushawwirrd.github.io/SJY-hospital-demo/"
+            }
+        ]
+    },
+    "footer": {
+        "copy": "©2025 All Rights Reserved",
+        "message": "Made with 💙 by",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "dribbble-icons.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "behance.svg"
+            }
+        ]
+    }
+}
