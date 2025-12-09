@@ -12,7 +12,7 @@ export default function Hero({ data }) {
     return (
         <section id="hero" className=" relative pt-24 lg:pt-36 overflow-hidden">
 
-            <img src="bgd.jpg"
+            <img src="bgnd.jpg"
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="" />
 
@@ -47,8 +47,8 @@ export default function Hero({ data }) {
                         className="text-white text-lg w-60 lg:w-[210px] mt-5 lg:mt-8 lg:text-lg ">{data.desc}</motion.h2>
 
                     <motion.div
-                        initial={{ opacity: 0, x: -18 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 18 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                         className=" flex flex-row justify-center lg:justify-start mt-5 ">

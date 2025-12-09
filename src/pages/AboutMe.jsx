@@ -39,27 +39,35 @@ export default function AboutMe({ data }) {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                         className="flex flex-col items-center w-3/5 lg:w-2/5">
-                        <img src="hdi.png" alt="" className="" />
+                        <img src="man2.png" alt="" className="" />
                     </motion.div>
 
+                    <div className="flex flex-col md:w-1/2">
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1 }}
+                            viewport={{ once: true }}
+                            className="text-lg md:text-xl ">
 
-                    <motion.div
-                        initial={{ opacity: 0, y: 35 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1 }}
-                        viewport={{ once: true }}
-                        className="text-lg md:w-1/2 md:text-xl ">
+
+                            <p className="mb-3">
+                                {data.prg1}
+                            </p>
+
+                            <p className="mb-4">
+                                {data.prg2}
+                            </p>
+
+                        </motion.div>
 
 
-                        <p className="mb-3">
-                            {data.prg1}
-                        </p>
-
-                        <p className="mb-4">
-                            {data.prg2}
-                        </p>
-
-                        <div className="flex flex-row gap-5 justify-start">
+                        <motion.div
+                            initial={{ opacity: 0, y: 17 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1 }}
+                            viewport={{ once: true }}
+                            className="flex flex-row gap-5 justify-start">
 
                             <ButtonIcon
                                 href="https://www.linkedin.com/in/mushawwir-rudianto"
@@ -69,27 +77,32 @@ export default function AboutMe({ data }) {
                             />
 
                             <ButtonIcon
-                                href="https://github.com/mushawwirrd"
-                                icon={<FaDribbble size={28} />}
-                                target="_blank"
-                                alt="Github"
-                            />
-
-                            <ButtonIcon
                                 href="https://www.behance.net/mushawwrudiant"
                                 icon={<FaBehance size={32} />}
                                 target="_blank"
                                 alt="Behance"
                             />
 
-                        </div>
+                            <ButtonIcon
+                                href="https://github.com/mushawwirrd"
+                                icon={<FaDribbble size={28} />}
+                                target="_blank"
+                                alt="Github"
+                            />
 
-                        <div className="flex flex-col items-center justify-center mt-8 ">
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1 }}
+                            viewport={{ once: true }}
+                            className="flex flex-col items-center justify-center mt-16">
                             {/* <h1 className=' text-primary text-xl lg:text-2xl font-bold mb-8'>My Skill</h1> */}
                             {skill}
-                        </div>
+                        </motion.div>
 
-                    </motion.div>
+                    </div>
 
                 </div>
 

@@ -18,7 +18,7 @@ function NavMobile({ isOpen, setOpen }) {
                 </button>
             </div>
 
-            <div className={`fixed z-[70] top-[3.5rem] right-0 text-center w-full rounded-b-3xl bg-white p-10 transition-transform duration-300 ${isOpen ? "translate-x-0 " : "translate-x-full "}`}>
+            <div className={`fixed z-[70] top-[3.5rem] right-0 text-center left-0 w-full rounded-2xl bg-white p-10 transition-transform duration-300 ${isOpen ? "translate-x-0 " : "translate-x-full "}`}>
 
                 <ul className="space-y-5">
                     {nav.map(v => (
