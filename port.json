@@ -3,21 +3,7 @@
         "name": "Joko",
         "role": "UI Designer",
         "photo": "hoodie.png",
-        "desc": "I am a UI designer with a strong focus in animation.",
-        "social": [
-            {
-                "socialName": "LinkedIn",
-                "socialIcon": "linkedin.svg"
-            },
-            {
-                "socialName": "Github",
-                "socialIcon": "github-otln.svg"
-            },
-            {
-                "socialName": "Behance",
-                "socialIcon": "dribbble-icons.svg"
-            }
-        ]
+        "desc": "I am a UI designer with a strong focus in animation."
     },
     "mySkill": {
         "skill": [
@@ -99,7 +85,7 @@
         "project": [
             {
                 "title": "Woo Hoo - UI Animation",
-                "image": "ui-animation.jpg",
+                "image": "prjct1.jpg",
                 "detail": "Financial health diagnosis",
                 "type": "UI Designer",
                 "type2": "UI Animation",
@@ -107,21 +93,21 @@
             },
             {
                 "title": "Attandance App",
-                "image": "absn.jpg",
+                "image": "prjct2.jpg",
                 "detail": "Financial health diagnosis",
                 "type": "UI/UX Designer",
                 "link": "https://mushawwirrd.github.io/fina/"
             },
             {
                 "title": "Job Portal",
-                "image": "portal.jpg",
+                "image": "prjct3.jpg",
                 "detail": "Look at the doctor's schedule",
                 "type": "Web Designer",
                 "link": "https://mushawwirrd.github.io/SJY-hospital-demo/"
             },
             {
                 "title": "Woo Hoo - Design System",
-                "image": "dsg.jpg",
+                "image": "prjct4.jpg",
                 "detail": "Look at the doctor's schedule",
                 "type": "UI Designer",
                 "link": "https://mushawwirrd.github.io/SJY-hospital-demo/"
