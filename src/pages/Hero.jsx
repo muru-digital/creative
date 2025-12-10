@@ -10,14 +10,13 @@ export default function Hero({ data }) {
     if (!data) return null
 
     return (
-        <section id="hero" className=" relative pt-24 lg:pt-36 overflow-hidden">
+        <section 
+        id="hero" 
+        className=" relative pt-24 lg:pt-36 h-full bg-cover bg-center"
+        style={{backgroundImage : "url(bgnd.jpg"} }
+        >
 
-            <img src="bgnd.jpg"
-                className="absolute inset-0 w-full h-full object-cover"
-                alt="" />
-
-
-            <div className="relative z-10  flex flex-col items-center lg:items-start lg:flex-row lg:justify-between  mx-8 lg:mx-24 ">
+            <div className=" flex flex-col items-center lg:items-start lg:flex-row lg:justify-between  mx-8 lg:mx-24 ">
 
                 <div className="flex flex-col items-center lg:items-start text-center lg:text-start lg:mt-0 mx-8  ">
 
