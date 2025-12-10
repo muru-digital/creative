@@ -13,7 +13,7 @@ export default function Hero({ data }) {
         <section 
         id="hero" 
         className=" relative pt-24 lg:pt-36 h-full bg-cover bg-center"
-        style={{backgroundImage : "url(bgnd.jpg"} }
+        style={{backgroundImage : "url(bgnd.jpg)"} }
         >
 
             <div className=" flex flex-col items-center lg:items-start lg:flex-row lg:justify-between  mx-8 lg:mx-24 ">
