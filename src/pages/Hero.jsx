@@ -26,7 +26,7 @@ export default function Hero({ data }) {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                         className="text-white text-3xl lg:text-4xl font-bold w-full">
-                        Hi, I'm <span className="font-extrabold ">{data.name}</span>🖐🏻
+                        Hi, I'm <span className="font-extrabold ">{data.name}</span>👋🏻
                     </motion.h1>
 
                     <motion.h2

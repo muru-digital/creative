@@ -39,7 +39,7 @@ export default function AboutMe({ data }) {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                         className="flex flex-col items-center w-3/5 lg:w-2/5">
-                        <img src="man2.png" alt="" className="" />
+                        <img src="man2.webp" alt="" className="" />
                     </motion.div>
 
                     <div className="flex flex-col md:w-1/2">
